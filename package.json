@@ -1,0 +1,29 @@
+{
+  "name": "vdt-season1-marvel-api",
+  "version": "1.0.0",
+  "description": "Projeto de automação da API da Marvel",
+  "main": "index.js",
+  "scripts": {
+    "back2thepast": "sh ./back2thepast.sh",
+    "test": "npm run back2thepast && npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebelluci/vdt-season1-marvel-api.git"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "André Belluci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrebelluci/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/andrebelluci/vdt-season1-marvel-api#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.2.1",
+    "cypress": "^11.1.0"
+  }
+}
